@@ -72,3 +72,9 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Content 파일의 모든 파일 무시
+Content/*
+# Commit 파일과 그 안의 내용은 추적
+!Content/Commit/
+!Content/Commit/**
